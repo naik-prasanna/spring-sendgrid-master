@@ -1,0 +1,8 @@
+---
+applications:
+- name: final-email-pnaik
+  memory: 512M
+  instances: 1
+  path: build/libs/spring-sendgrid-master.war 
+  services:
+    - cf-spring-email
